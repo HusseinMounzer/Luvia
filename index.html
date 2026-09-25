@@ -479,14 +479,12 @@
 </div>
 
 <script>
-  // =======================================================================
-  // CONFIG — edit these for each shop
-  // =======================================================================
+  
   const CONFIG = {
     BUSINESS_NAME: "Luvia",
     TAGLINE: "Browse below, then order on WhatsApp",
-    LOGO_URL: "",                      // optional — direct image link to a logo. Leave blank to just show the name as text.
-    WHATSAPP_NUMBER: "96170461272",   // digits only, country code, no + or spaces
+    LOGO_URL: "",
+    WHATSAPP_NUMBER: "96170461272",
     FOOTER_NOTE: "Prices in your local currency. Payment on delivery.",
 
     HERO_SHEET_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSE6R4ZT6sM5r5QubC1E_D-CZ35W1QZZzKha4McvJzZDk9eUu11NmbMh8D-KyyqMtKw9cr19pH8zPc7/pub?gid=913266362&single=true&output=csv",
@@ -504,15 +502,13 @@
     ],
 
     SOCIALS: {
-      whatsapp: "https://wa.me/96170461272",   // e.g. "https://wa.me/15551234567"
-      instagram: "https://instagram.com/luvia_lb",  // e.g. "https://instagram.com/yourshop"
-      facebook: "",   // e.g. "https://facebook.com/yourshop"
-      tiktok: ""      // e.g. "https://tiktok.com/@yourshop"
+      whatsapp: "https://wa.me/96170461272",
+      instagram: "https://instagram.com/luvia_lb",
+      facebook: "",
+      tiktok: ""
     }
   };
 
-  // Fallback sample rows shown until a spreadsheet is configured, so the
-  // page never looks broken while you're still setting it up.
   const SAMPLE_PRODUCTS = [
     { name: "Sample Product 1", price: "$12", photo: "https://placehold.co/400x400?text=Photo+1", photos: "https://placehold.co/400x400?text=Angle+2,https://placehold.co/400x400?text=Angle+3", description: "Short description of the item goes here.", category: "Samples", subcategory: "Group A", in_stock: "yes" },
     { name: "Sample Product 2", price: "$18", photo: "https://placehold.co/400x400?text=Photo+2", photos: "", description: "Short description of the item goes here.", category: "Samples", subcategory: "Group B", in_stock: "no" },
